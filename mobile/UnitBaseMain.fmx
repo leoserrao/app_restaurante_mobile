@@ -1,0 +1,23 @@
+inherited FrmMain: TFrmMain
+  Caption = 'FrmBase1'
+  DesignerMasterStyle = 0
+  object TabCtrlMain: TksTabControl
+    TabIndex = 1
+    Position.X = 16.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 489.000000000000000000
+    Size.PlatformDefault = False
+    TabPosition = ksTbpTop
+    object ksTabItemLogin: TksTabItem
+      Text = 'Login'
+      StandardIcon = Custom
+      TabIndex = 0
+    end
+    object ksTabItemMain: TksTabItem
+      Text = 'Main'
+      StandardIcon = Custom
+      TabIndex = 1
+    end
+  end
+end

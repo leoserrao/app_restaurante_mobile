@@ -1,0 +1,4 @@
+inherited FrmInfoUser: TFrmInfoUser
+  Caption = 'FrmLayoutBase1'
+  DesignerMasterStyle = 0
+end
